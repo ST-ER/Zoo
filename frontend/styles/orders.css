@@ -1,0 +1,157 @@
+/* @import url('https://fonts.googleapis.com/');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.ordersTable{
+    display: flex;
+    flex-direction: column;
+}
+
+.divSth{
+    display: flex
+}
+
+.divSth button{
+    width: 50px;
+    height: 50px;
+    margin-top: 7vh;
+    margin-left: 2vw;
+    background-color: rgb(77, 178, 241);
+    border: 3px solid rgb(198, 240, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divSth button:hover{
+    background-color: rgb(64, 151, 205);
+}
+.ordersTable label{
+    margin-left: 10vw;
+    margin-right: 40vw;
+    margin-top: 5vh;
+    font-size: 4em;
+    color: white;
+    -webkit-text-stroke: 1px rgb(77, 178, 241);
+}
+
+#table table input{
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+
+#table table input:focus {
+    outline: none;
+}
+
+#table table{
+    width: 25%;
+    border-collapse: collapse;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+#table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#table tr{
+    background-color: rgb(64, 151, 205);
+}
+
+#table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+*/
+.ordersTable{
+    display: flex;
+    flex-direction: column;
+}
+
+.divSth{
+    display: flex
+}
+
+.divSth button{
+    width: 50px;
+    height: 50px;
+    margin-top: 7vh;
+    margin-left: 2vw;
+    background-color: rgb(77, 178, 241);
+    border: 3px solid rgb(198, 240, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divSth button:hover{
+    background-color: rgb(64, 151, 205);
+}
+.ordersTable label{
+    margin-left: 10vw;
+    margin-right: 43.3vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 4em;
+    color: white;
+    -webkit-text-stroke: 1px rgb(77, 178, 241);
+}
+
+#table table input{
+    height: 25px;
+    text-align: center;
+    border: none;
+}
+
+
+#table table input:focus {
+    outline: none;
+}
+
+#DeleteBtn {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#DeleteBtn:hover {
+    background-color: #d32f2f;
+}
+
+#table table {
+	width: 50%;
+	margin-bottom: 20px;
+    margin-left: 10vw;
+	border: 15px solid rgb(55, 167, 237);
+	border-top: 5px solid rgb(15, 163, 255);
+	border-collapse: collapse; 
+    background-color: rgb(77, 178, 241);
+}
+#table table th {
+    color: white;
+	font-weight: bold;
+	padding: 5px;
+	background: rgb(15, 163, 255);
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+}
+#table table td {
+	padding: 5px;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+}

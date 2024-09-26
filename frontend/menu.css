@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background: #0b93d2;
+    transition: all .5s ease;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #2ab4f4;
+    user-select: none;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 4px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid rgba(49, 193, 255, 0.834);
+    transition: .4s;
+}
+
+.sidebar ul a:hover{
+    background-color: #2196cc;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar ul img{
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+#check{
+    display: none;
+}
+
+label #menu,label #cancel,label #home{
+    position: absolute;
+    cursor: pointer;
+    background: #0b93d2;
+    border-radius: 3px;
+}
+
+label #menu{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel{
+    z-index: 1111;
+    left: -235px;
+    top: 17px;
+    font-size: 30px;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+label #home{
+    z-index: 1111;
+    left: -235px;
+    top: 17px;
+    font-size: 30px;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+#check:checked ~ .sidebar{
+    left: 0;
+}
+
+#check:checked ~ label #menu{
+    left: 255px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+    left: 235px;
+}
+
+#check:checked ~ label #home{
+    left: 25px;
+}
+
+#check:checked ~ section{
+    margin-left: 150px;
+}
+
+section{
+    display: flex;
+    background: url(./img/bg/bg.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s;
+}
+
+#check:checked ~ section{
+    margin-left: 150px;
+}
+
+
+
+
+/* @font-face {
+    font-family: "KyivTypeSerif";
+    src: url("./fonts/KyivTypeSerif-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+#NavBar{
+    display: flex;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+#Home{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home img{
+    width: 50px;
+    height: 50px;
+    
+    background-color: transparent;
+}
+
+#Home:hover{
+    background-color: #DDFFF6;
+}
+
+#NavSection{
+    display: flex;
+    width: 100vw;
+    height: 17vh;
+    align-items: center;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+}
+
+#NavSection:hover{
+    background-color: #DDFFF6;
+}
+
+#NavSection p{
+    margin: auto;
+    font-family: KyivTypeSerif;
+    font-size: 22px;
+}
+
+#MainPage{
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    background-color:#F4FFFC;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#ServiceName{
+    font-family: KyivTypeSerif, bald;
+    font-size: 128px;
+    margin-left: 25%;
+    width: 100%;
+    height: 100vh;
+}
+
+#MainImage{
+    width: 100%;
+
+}
+
+#AcceptOrder{
+    width: 400px;
+    height: 80px;
+    margin-top: 5%;
+    margin-left: 33%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#AcceptOrder p{
+    font-family: KyivTypeSerif;
+    font-size: 22px;
+}
+
+#AcceptOrder:hover{
+    background-color: #DDFFF6;
+} */

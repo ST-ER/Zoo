@@ -1,0 +1,104 @@
+.queryTable{
+    display: flex;
+    flex-direction: column;
+}
+
+.divSth{
+    display: flex
+}
+
+.divSth button{
+    width: 50px;
+    height: 50px;
+    margin-top: 7vh;
+    margin-left: 2vw;
+    background-color: rgb(77, 178, 241);
+    border: 3px solid rgb(198, 240, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divSth button:hover{
+    background-color: rgb(64, 151, 205);
+}
+.queryTable label{
+    margin-left: 10vw;
+    margin-right: 35vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 4em;
+    color: white;
+    -webkit-text-stroke: 1px rgb(77, 178, 241);
+}
+
+#queryText{
+    width: 75%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+#queryText:focus{
+    outline: none;
+}
+
+#table table input:focus {
+    outline: none;
+}
+
+#blanks{
+    display: flex;
+}
+
+#blanks button{
+    margin: 1vw;
+    margin-top: 2.5vh;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(15, 163, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+#blank{
+    margin-top: 1vh;
+    margin-right: 10vw;
+}
+
+#table table {
+	width: 63%;
+    margin: auto;
+	margin-bottom: 10vh;
+	border: 15px solid rgb(55, 167, 237);
+	border-top: 5px solid rgb(15, 163, 255);
+	border-collapse: collapse; 
+    background-color: rgb(77, 178, 241);
+}
+
+#table table th {
+    color: white;
+	font-weight: bold;
+	padding: 5px;
+	background: rgb(15, 163, 255);
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+}
+
+#table table td {
+	padding: 5px;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+}
+
+#table table td input{
+    text-align: center;
+	width: 100%;
+}

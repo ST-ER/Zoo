@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЧистоБаза - лучшая прачечная в Калуге</title>
+    <script type="module" src="./query.js" defer></script>
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="../styles/query.css">
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <img src="../img/icons/menu.png" alt="menu" id="menu">
+        <img src="../img/icons/close.png" alt="cancel" id="cancel">
+        <a href="../index.html">
+          <img src="../img/icons/home.png" alt="home" id="home">  
+        </a>
+    </label>
+    <div class="sidebar">
+        <header>Запрос БД</header>
+        <ul>
+            <li><a href="../newpages/animals.html"><img src="../img/icons/icons8-animal-25.png" alt="animals">Животные</a></li>
+            <li><a href="../newpages/species.html"><img src="../img/icons/icons8-animal-shelter-25.png" alt="client">Виды</a></li>
+            <li><a href="../newpages/arrival.html"><img src="../img/icons/icons8-new-25.png" alt="item">Прибытие животных</a></li>
+            <li><a href="../newpages/departure.html"><img src="../img/icons/icons8-boat-leaving-port-25.png" alt="category">Убытие животных</a></li>
+            <li><a href="../newpages/reasons.html"><img src="../img/icons/icons8-term-25.png" alt="type">Причины убытия</a></li>
+            <li><a href="../newpages/query.html"><img src="../img/icons/query.png" alt="type">Запрос БД</a></li>
+        </ul>
+    </div>
+    
+    <section class="queryTable">
+        <div class="divSth">
+            <label class="categoryLabel">Введите свой запрос: </label>
+            <button id="XLSX"><img src="../img/icons/xlsx.png"></button>
+            <button id="send"><img src="../img/icons/send.png"></button>
+            <button id="clean"><img src="../img/icons/clear.png"></button>
+        </div>
+        <textarea id="queryText" type="text"></textarea>
+        <div id="table">
+
+        </div>
+        <div id="blanks">
+            <label id="blank">Заготовки: </label>
+            <button id="firstQuery">Запрос 1</button>
+            <button id="secondQuery">Запрос 2</button>
+            <button id="thirdQuery">Запрос 3</button>
+            <button id="fourthQuery">Запрос 4</button>
+            <button id="fifthQuery">Запрос 5</button>
+            <button id="sixthQuery">Запрос 6</button>
+            <button id="seventhQuery">Запрос 7</button>
+        </div>
+    </section>
+</body>
+</html>

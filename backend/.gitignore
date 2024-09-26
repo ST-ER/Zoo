@@ -1,0 +1,5 @@
+node_modules # Игнорируется папка node_modules
+
+.local # Игнорируется файл .local
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЧистоБаза - лучшая прачечная в Калуге</title>
+    <script type="module" src="./animals.js" defer></script>
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="../styles/orders.css">
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <img src="../img/icons/menu.png" alt="menu" id="menu">
+        <img src="../img/icons/close.png" alt="cancel" id="cancel">
+        <a href="../index.html">
+          <img src="../img/icons/home.png" alt="home" id="home">  
+        </a>
+    </label>
+    <div class="sidebar">
+        <header>Животные</header>
+        <ul>
+            <li><a href="../newpages/animals.html"><img src="../img/icons/icons8-animal-25.png" alt="animals">Животные</a></li>
+            <li><a href="../newpages/species.html"><img src="../img/icons/icons8-animal-shelter-25.png" alt="client">Виды</a></li>
+            <li><a href="../newpages/arrival.html"><img src="../img/icons/icons8-new-25.png" alt="item">Прибытие животных</a></li>
+            <li><a href="../newpages/departure.html"><img src="../img/icons/icons8-boat-leaving-port-25.png" alt="category">Убытие животных</a></li>
+            <li><a href="../newpages/reasons.html"><img src="../img/icons/icons8-term-25.png" alt="type">Причины убытия</a></li>
+            <li><a href="../newpages/query.html"><img src="../img/icons/query.png" alt="type">Запрос БД</a></li>
+        </ul>
+    </div>
+    <section class="ordersTable">
+        <div class="divSth">
+            <label class="orderLabel">Таблица животных: </label>
+            <button id="XLSX"><img src="../img/icons/xlsx.png"></button>
+        </div>
+        <div id="table">
+
+        </div>
+    </section>
+</body>
+</html>
